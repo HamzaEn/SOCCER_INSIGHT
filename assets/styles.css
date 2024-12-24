@@ -1,0 +1,15 @@
+/* assets/styles.css */
+
+/* Make the main container use the background image */
+.main {
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Add a translucent overlay behind content for readability */
+.block-container {
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
